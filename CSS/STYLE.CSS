@@ -103,8 +103,8 @@
     height: 85vh;
     margin-top: 15px;
     margin-bottom: 15px;
-    margin-right: 282px;
-    margin-left: 282px;
+    margin-right: 287px;
+    margin-left: 287px;
     background: transparent;  
     border: 2px solid rgba(255, 255, 255, .2);
     backdrop-filter: blur(20px);
@@ -209,8 +209,8 @@
     height: 85vh;
     margin-top: 15px;
     margin-bottom: 15px;
-    margin-left: 317px;
-    margin-right: 317px;
+    margin-left: 322px;
+    margin-right: 322px;
     background: transparent;  
     border: 2px solid rgba(255, 255, 255, .2);
     backdrop-filter: blur(20px);
@@ -271,18 +271,18 @@
 
 .menu-item {
     position: relative;
-    width: 260x;
+    width: 262x;
     height: 120px;
 }
 
 .menu-item img {
-    width: 260px;
+    width: 262px;
     height: 120px;
     border-radius: 10px;
 }
 
 .menu-description {
-    width: 260px;
+    width: 262px;
     height: 120px;
     top: 0;
     left: 0;
@@ -314,5 +314,5 @@
     font-size: 16px;
     font-weight: bold;
     color: white;
-    padding: 5px;
+    padding: 2px;
 }
