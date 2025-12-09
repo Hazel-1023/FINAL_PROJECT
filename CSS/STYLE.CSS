@@ -212,9 +212,12 @@
     border: 2px solid rgba(255, 255, 255, .2);
     backdrop-filter: blur(20px);
     box-shadow: 0 0 10px rgba(0, 0, 0, .2);
-    color: white;
+    color: #333;
     border-radius: 10px;
     padding: 30px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .about-content {
@@ -223,14 +226,14 @@
     top: 0;
     left: 0;
     position: absolute;
-    background: rgba(0, 0, 0, 0.6);
+    background: transparent;;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     opacity: 0;
     border-radius: 10px;
-    box-shadow:  5px 5px 8px 0 #9ECFD4;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
     transition:opacity 0.3s;
 }
 
@@ -242,13 +245,13 @@
 .about-content h3 {
     font-size: 20px;
     font-weight: bold;
-    color: white;
+    color: #333;
     margin-bottom: 10px;
 }
 
 .about-content p {
     font-size: 15px;
-    color: white;
+    color: #333;
     padding: 10px;
 }
 
@@ -268,19 +271,19 @@
 
 .menu-item {
     position: relative;
-    width: 200px;
-    height: 100px;
+    width: 250px;
+    height: 200px;
 }
 
 .menu-item img {
-    width: 200px;
-    height: 100px;
+    width: 250px;
+    height: 200px;
     border-radius: 10px;
 }
 
 .menu-description {
-    width: 200px;
-    height: 100px;
+    width: 250px;
+    height: 200px;;
     top: 0;
     left: 0;
     position: absolute;
@@ -303,12 +306,12 @@
 .menu-description h3 {
     font-size: 17px;
     font-weight: bold;
-    color: white;
+    color: #333;
     margin-bottom: 5px;
 }
 
 .menu-description p {
     font-size: 14px;
-    color: white;
+    color: #333;
     padding: 5px;
 }
