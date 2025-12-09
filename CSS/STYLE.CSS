@@ -103,8 +103,8 @@
     height: 85vh;
     margin-top: 15px;
     margin-bottom: 15px;
-    margin-right: 335px;
-    margin-left: 335px;
+    margin-right: 235px;
+    margin-left: 235px;
     background: transparent;  
     border: 2px solid rgba(255, 255, 255, .2);
     backdrop-filter: blur(20px);
@@ -209,8 +209,8 @@
     height: 85vh;
     margin-top: 15px;
     margin-bottom: 15px;
-    margin-left: 335px;
-    margin-right: 335px;
+    margin-left: 235px;
+    margin-right: 235px;
     background: transparent;  
     border: 2px solid rgba(255, 255, 255, .2);
     backdrop-filter: blur(20px);
@@ -266,23 +266,23 @@
     margin-bottom: 10px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 3px;
+    grid-gap: 1rem;
 }
 
 .menu-item {
     position: relative;
-    width: 262x;
+    width: 265x;
     height: 120px;
 }
 
 .menu-item img {
-    width: 262px;
+    width: 265px;
     height: 120px;
     border-radius: 10px;
 }
 
 .menu-description {
-    width: 262px;
+    width: 265px;
     height: 120px;
     top: 0;
     left: 0;
