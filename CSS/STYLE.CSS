@@ -100,11 +100,11 @@
 /* LOGIN.CSS */
 .login-container {
     width: 50%;
-    height: 90vh;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 85vh;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 282px;
+    margin-left: 282px;
     background: transparent;  
     border: 2px solid rgba(255, 255, 255, .2);
     backdrop-filter: blur(20px);
@@ -175,6 +175,7 @@
 .btn {
     width: 100%;
     height: 45px;
+    font-size: 20px;
     background: #fff;
     border: none;
     outline: none;
@@ -204,32 +205,35 @@
 
 /* ABOUT.CSS */
 .about-container {
-    width: 60%;
-    height: 90vh;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 50%;
+    height: 85vh;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 317px;
+    margin-right: 317px;
     background: transparent;  
     border: 2px solid rgba(255, 255, 255, .2);
     backdrop-filter: blur(20px);
     box-shadow: 0 0 10px rgba(0, 0, 0, .2);
-    color: #333;
+    color: white;
     border-radius: 10px;
     padding: 30px 40px;
 }
 
 .about-content {
     width: 100%;
-    height: 85vh;;
+    height: 85vh;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 25px;
     flex-direction: column;
     opacity: 0;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    box-shadow:  0 0 10px rgba(0, 0, 0, .2);
     transition:opacity 0.3s;
 }
 
@@ -241,13 +245,13 @@
 .about-content h3 {
     font-size: 20px;
     font-weight: bold;
-    color: #333;
+    color: white;
     margin-bottom: 10px;
 }
 
 .about-content p {
-    font-size: 15px;
-    color: #333;
+    font-size: 16px;
+    color: white;
     padding: 10px;
 }
 
@@ -256,9 +260,10 @@
 .menu-container {
     width: 100%;
     height: 90vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-top: 10px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 10px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 3px;
@@ -266,18 +271,18 @@
 
 .menu-item {
     position: relative;
-    width: 270px;
+    width: 260x;
     height: 120px;
 }
 
 .menu-item img {
-    width: 270px;
+    width: 260px;
     height: 120px;
     border-radius: 10px;
 }
 
 .menu-description {
-    width: 270px;
+    width: 260px;
     height: 120px;
     top: 0;
     left: 0;
@@ -299,14 +304,15 @@
 }
 
 .menu-description h3 {
-    font-size: 25px;
+    font-size: 18px;
     font-weight: bold;
-    color: #333;
+    color: white;
     margin-bottom: 5px;
 }
 
 .menu-description p {
-    font-size: 18px;
-    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
     padding: 5px;
 }
