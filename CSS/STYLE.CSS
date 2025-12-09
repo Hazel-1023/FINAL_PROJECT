@@ -99,8 +99,12 @@
 
 /* LOGIN.CSS */
 .login-container {
-    width: 50%;
-    height: 85vh;
+    /* width: 50%;
+    height: 85vh; */
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
     margin-top: 15px;
     margin-bottom: 15px;
     margin-left: 275px;
@@ -203,8 +207,10 @@
 
 /* ABOUT.CSS */
 .about-container {
-    width: 50%;
-    height: 85vh;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
     margin-top: 15px;
     margin-bottom: 15px;
     margin-left: 275px;
@@ -215,9 +221,9 @@
     color: #333;
     border-radius: 10px;
     padding: 30px 40px;
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 }
 
 .about-content {
