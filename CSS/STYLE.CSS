@@ -99,15 +99,12 @@
 
 /* LOGIN.CSS */
 .login-container {
-    /* width: 50%;
-    height: 85vh; */
+    width: 50%;
+    height: 90vh;
     position: absolute;
-    width: 100%;
-    top: 50%;
-    transform: translateY(-50%);
-    margin-top: 15px;
-    margin-bottom: 15px;
-    margin-left: 275px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: transparent;  
     border: 2px solid rgba(255, 255, 255, .2);
     backdrop-filter: blur(20px);
@@ -207,8 +204,10 @@
 
 /* ABOUT.CSS */
 .about-container {
+    width: 60%;
+    height: 90vh;
     position: absolute;
-   display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     background: transparent;  
