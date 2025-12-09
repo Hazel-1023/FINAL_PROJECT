@@ -208,12 +208,9 @@
 /* ABOUT.CSS */
 .about-container {
     position: absolute;
-    width: 100%;
-    top: 50%;
-    transform: translateY(-50%);
-    margin-top: 15px;
-    margin-bottom: 15px;
-    margin-left: 275px;
+   display: flex;
+    justify-content: center;
+    align-items: center;
     background: transparent;  
     border: 2px solid rgba(255, 255, 255, .2);
     backdrop-filter: blur(20px);
@@ -221,9 +218,6 @@
     color: #333;
     border-radius: 10px;
     padding: 30px 40px;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
 }
 
 .about-content {
@@ -278,18 +272,18 @@
 .menu-item {
     position: relative;
     width: 250px;
-    height: 200px;
+    height: 150px;
 }
 
 .menu-item img {
     width: 250px;
-    height: 200px;
+    height: 150px;
     border-radius: 10px;
 }
 
 .menu-description {
     width: 250px;
-    height: 200px;;
+    height: 150px;;
     top: 0;
     left: 0;
     position: absolute;
@@ -310,14 +304,14 @@
 }
 
 .menu-description h3 {
-    font-size: 17px;
+    font-size: 25px;
     font-weight: bold;
     color: #333;
     margin-bottom: 5px;
 }
 
 .menu-description p {
-    font-size: 14px;
+    font-size: 18px;
     color: #333;
     padding: 5px;
 }
